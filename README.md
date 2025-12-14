@@ -175,7 +175,6 @@ simats.html
 
 </html>
 # OUTPUT
-<img width="1916" height="1019" alt="1.png" src="https://github.com/user-attachments/assets/d97e1d09-611f-4c94-bf6e-f12be3e7c10d" />
 
 ![alt text](1.png)
 ![alt text](<Screenshot 2025-12-14 200353.png>)
