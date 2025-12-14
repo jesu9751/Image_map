@@ -22,7 +22,7 @@ Write HTML programs for all the regions identified.
 ## STEP 6
 Execute the programs and publish them.
 
-# CODE
+# CODE 
 gmap.html
 <html>
     <head>
@@ -95,9 +95,7 @@ saveetha.html
             It offers a wide range of undergraduate and postgraduate programs in engineering and technology, supported by state-of-the-art laboratories, 
             modern infrastructure, and a vibrant campus life. With a strong emphasis on research, industry collaboration, and holistic development,
             Saveetha Engineering College nurtures students to become skilled professionals and responsible global citizens.
-
         </p>
-
     </body>
 </html>
 saveethamed.html
@@ -122,7 +120,6 @@ saveethamed.html
             Its 2000-bed super-specialty hospital provides advanced clinical training and
             healthcare services. Known for cutting-edge infrastructure, high patient volume, 
             and research-driven education, SMCH blends academic excellence with real-world medical experience.
-
         </p>
     </body>
 </html>
