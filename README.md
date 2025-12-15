@@ -23,6 +23,36 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE 
+
+views.py
+```
+from django.shortcuts import render
+def gmap(request):
+    return render(request,'gmagemap.html')
+def simats(request):
+    return render(request,'simats.html')
+def nur(request):
+    return render(request,'savnur.html')
+def he(request):
+    return render(request,'sahe.html')
+def saveethamed(request):
+    return render(request,'saveethamed.html')
+```
+```
+urls.py
+from django.contrib import admin
+from django.urls import path
+from image_map import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.saveetha, name='SAVEETHA'),
+    path('bn/', views.saveethamed, name='MED'),
+    path('kashi/', views.simats, name='SIMATS'),
+    path('ghat/', views.sahe, name='SAVEETHAHEALTH'),
+    path('aarti/', views.savnur, name='NURSING'),
+]
+```
 ```
 gmap.html
 <html>
@@ -49,7 +79,8 @@ gmap.html
         </center>
     </body>
 </html>
-
+```
+```
 sahe.html
 <html>
     <head>'
@@ -73,7 +104,8 @@ sahe.html
         </p>
     </body>
 </html>
-
+```
+```
 saveetha.html
 <html>
     <head>'
@@ -99,6 +131,8 @@ saveetha.html
         </p>
     </body>
 </html>
+```
+```
 saveethamed.html
 <html>
     <head>'
@@ -124,6 +158,8 @@ saveethamed.html
         </p>
     </body>
 </html>
+```
+```
 savnur.html
 <html>
     <head>'
@@ -147,6 +183,8 @@ savnur.html
         </p>
     </body>
 </html>
+```
+```
 simats.html
 <html>
     <head>'
