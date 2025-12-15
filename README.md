@@ -38,8 +38,8 @@ def he(request):
 def saveethamed(request):
     return render(request,'saveethamed.html')
 ```
-```
 urls.py
+```
 from django.contrib import admin
 from django.urls import path
 from image_map import views
@@ -53,8 +53,8 @@ urlpatterns = [
     path('aarti/', views.savnur, name='NURSING'),
 ]
 ```
-```
 gmap.html
+```
 <html>
     <head>
         <title style="color:red">
@@ -80,8 +80,8 @@ gmap.html
     </body>
 </html>
 ```
-```
 sahe.html
+```
 <html>
     <head>'
         <title>Microsoft</title>
@@ -105,8 +105,8 @@ sahe.html
     </body>
 </html>
 ```
-```
 saveetha.html
+```
 <html>
     <head>'
         <title>Microsoft</title>
@@ -132,8 +132,8 @@ saveetha.html
     </body>
 </html>
 ```
-```
 saveethamed.html
+```
 <html>
     <head>'
         <title>Microsoft</title>
@@ -159,8 +159,8 @@ saveethamed.html
     </body>
 </html>
 ```
-```
 savnur.html
+```
 <html>
     <head>'
         <title>Microsoft</title>
@@ -184,8 +184,8 @@ savnur.html
     </body>
 </html>
 ```
-```
 simats.html
+```
 <html>
     <head>'
         <title>Microsoft</title>
