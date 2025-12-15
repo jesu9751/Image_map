@@ -174,7 +174,7 @@ simats.html
 # OUTPUT
 
 ![alt text](1.png)
-![alt text](<Screenshot 2025-12-14 200353.png>)
+![alt text](<Screenshot 2025-12-14 200329.p>)
 ![alt text](<Screenshot 2025-12-14 200353.png>)
 ![alt text](<Screenshot 2025-12-14 200442.png>)
 ![alt text](<Screenshot 2025-12-14 200507.png>)
